@@ -23,7 +23,7 @@ function drawBlock(rowNum, columnNum, color) {
      
 }
 
-function drawBoard() {
+function drawBoard(gameBoard) {
      // add the border of the game
      for (let row = 0; row < gameRows + 1; row++) {
           screenBoard[row + 1][6] = "lightGrey"; 
