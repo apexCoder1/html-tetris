@@ -54,5 +54,4 @@ function drawBoard() {
      }
 }
 
-drawBoard();
 export { drawBoard };
