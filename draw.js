@@ -7,6 +7,8 @@ const ctx = canvas.getContext('2d');
 const blockSize = 20;
 const screenRows = 24; 
 const screenColumns = 24; 
+const gameRows = 20; 
+const gameColumns = 10; 
 
 // Declare global variables
 const colors = {
