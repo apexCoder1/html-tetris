@@ -1,4 +1,3 @@
-import{gameRows, gameColumns, gameBoard} from "./game.js";
 // canvas stuff
 const canvas = document.getElementById('game');
 const ctx = canvas.getContext('2d');
@@ -54,3 +53,4 @@ function drawBoard() {
 }
 
 drawBoard();
+export { drawBoard };
