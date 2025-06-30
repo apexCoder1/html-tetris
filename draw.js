@@ -36,7 +36,7 @@ function drawBoard(gameBoard) {
      // add the game board
      for (let row = 0; row < gameRows; row++) {
           for (let col = 0; col < gameColumns; col++) {
-               screenBoard[row + 1][col + 6] = gameBoard[row][col];
+               screenBoard[row + 2][col + 7] = gameBoard[row][col];
           }
      }
 
