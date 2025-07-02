@@ -14,7 +14,14 @@ const gameColumns = 10;
 const colors = {
      "lightBlue": "#ADD8E6",
      "lightGrey": "#A9A9A9",
-     "black": "#000000"
+     "black": "#000000",
+     "red": "#FF0000",
+     "blue": "#0000FF",
+     "green": "#00FF00",
+     "yellow": "#FFFF00",
+     "purple": "#800080",
+     "orange": "#FFA500",
+     "cyan": "#00FFFF"
 };
 const screenBoard = Array.from({ length: screenRows }, () => Array(screenColumns).fill("lightBlue"));
 
