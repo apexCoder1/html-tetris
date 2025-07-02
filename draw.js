@@ -18,11 +18,6 @@ const colors = {
 };
 const screenBoard = Array.from({ length: screenRows }, () => Array(screenColumns).fill("lightBlue"));
 
-// functions for drawing the board
-function drawBlock(rowNum, columnNum, color) {
-     
-}
-
 function drawBoard(gameBoard) {
      // add the border of the game
      for (let row = 0; row < gameRows + 1; row++) {
